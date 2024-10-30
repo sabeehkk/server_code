@@ -21,10 +21,10 @@ app.post('/contact', async (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            // user: 'mail@defencehousingsociety.com',
-            // pass: 'goya wito mhbf awpc',
-            user: 'sabeehkadungalloor525@gmail.com',
-            pass: 'tefzmeicpgbqmnla',
+            user: 'mail@defencehousingsociety.com',
+            pass: 'goya wito mhbf awpc',
+            // user: 'sabeehkadungalloor525@gmail.com',
+            // pass: 'tefzmeicpgbqmnla',
         },
     });
 
